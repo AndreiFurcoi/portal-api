@@ -21,11 +21,10 @@ Welcome to the Shopping API repository! Follow the steps below to set up the pro
 1. Open `powershell`
 2. Clone repository: [Portal API](https://github.com/AndreiFurcoi/portal-api)
 3. Open the terminal in the project directory and run: `composer install`
-4. Run 'php artisan sail:install'
-5. Open the terminal with a Linux tab
-6. Create an alias for the sail command by using `alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'`
-7. Run: `sail up --build`
-8. Run: `sail artisan migrate:fresh --seed`
+4. Open the terminal with a Linux tab
+5. Create an alias for the sail command by using `alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'`
+6. Run: `sail up --build`
+7. Run: `sail artisan migrate:fresh --seed`
 
 ## Artisan/Composer commands with sail
 
